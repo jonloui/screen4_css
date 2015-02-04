@@ -6,10 +6,16 @@ body {
   margin-right: auto;
 }
 
+
 #header {
 
 }
 
 #content {
 
+}
+
+
+#header li {
+	display: inline;
 }
