@@ -180,11 +180,11 @@ div#about_info {
 }
 
 .articles svg polygon {
+	cursor: pointer;
 	fill: #FFC629;
-	stroke:black;
-	stroke-width:2;
-	fill-rule:evenodd;
-	
+	stroke: black;
+	stroke-width: 2;
+	fill-rule: nonzero;
 }
 
 .articles div {
