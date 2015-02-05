@@ -1,91 +1,78 @@
-* {
-	vertical-align: baseline;
-	font-weight: inherit;
-	font-family: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	border: 0 none;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-}
-
 body {
-  width: 970px;
   height: 850px;
-  padding: 0px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px;
+  width: 970px;
 }
 
 
 #header {
-	width: 950px;
+	border: 2px solid black;
 	height: 150px;
 	font-family: Verdana;
-	
-	border: 2px solid black;
+	width: 950px;
 }
 
 #header img {
-	width: 357px;
-	height: 68px;
 	border: none;
 	display: inline;
-	vertical-align: middle;
+	height: 68px;
 	margin-left: 10px;
+	vertical-align: middle;
+	width: 357px;
 }
 
 #header p {
-	width: 350px;
-	margin-left: 210px;
-	text-transform: uppercase;
-	position: relative;
-	top: 10px;
 	display: inline;
 	font-size: 18px;
 	font-weight: bold;
+	margin-left: 210px;
+	position: relative;
+	text-transform: uppercase;
+	top: 10px;
+	width: 350px;
 }
 
 #header ul {
-	width: 950px;
-	height: 30px;
-	border-top-style: solid;
-	border-color: #999999;
-	border-width: 2px;
 	background: -webkit-linear-gradient(#EDF1F3, #DBE1E6); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#EDF1F3, #DBE1E6); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#EDF1F3, #DBE1E6); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#EDF1F3, #DBE1E6); /* Standard syntax */
+	border-top-style: solid;
+	border-color: #999999;
+	border-width: 2px;
+	height: 30px;
+	width: 910px;
 }
 
 #header li {
+	border-right-style: solid;
+	border-width: 2px;
+	border-color: #CCCCCC;
+	color: #999999;
+	cursor: pointer;
 	display: inline;
+	font-size: 12px;
+	margin-left: 0px;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	margin-left: 0px;
-	font-size: 12px;
-	border-right-style: solid;
-	border-width: 2px;
-	color: #CCCCCC;
 }
 
 #header ul li:first-child {
-	margin-left: 25px;
 	border-left-style: solid;
-	border-width: 2px;
-	color: #CCCCCC;
+	margin-left: 25px;
 }
 
 li a {
-	text-decoration: none;
 	color: #999999;
+	text-decoration: none;
 }
 
 #content {
-	width: 950px;
 	height: 600px;
 	padding: 10px;
+	width: 950px;
 }
