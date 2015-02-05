@@ -1,16 +1,19 @@
 body {
-  height: 810px;
+  height: 780px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
-  width: 970px;
+  width: 1010px;
 }
 
-
 #header {
+	background: -webkit-linear-gradient(#EAEAEA, white 40%); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#EAEAEA, white 40%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#EAEAEA, white 40%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#EAEAEA, white 40%); /* Standard syntax */
 	height: 120px;
 	font-family: Verdana;
-	width: 950px;
+	width: 1010px;
 }
 
 #header img {
@@ -26,7 +29,7 @@ body {
 	display: inline;
 	font-size: 16px;
 	font-weight: bold;
-	margin-left: 250px;
+	margin-left: 300px;
 	position: relative;
 	text-transform: uppercase;
 	top: 10px;
@@ -39,35 +42,28 @@ body {
 	background: -moz-linear-gradient(#EDF1F3, #DBE1E6); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#EDF1F3, #DBE1E6); /* Standard syntax */
 	border-top-style: solid;
-	border-color: #999999;
+	border-color: #666666;
 	border-width: 2px;
 	height: 30px;
-	width: 910px;
+	width: 970px;
 }
 
 #header li {
 	border-right-style: solid;
 	border-width: 2px;
 	border-color: #CCCCCC;
-	color: #999999;
+	color: #666666;
 	cursor: pointer;
 	display: inline;
 	font-size: 10px;
 	font-weight: bold;
 	margin-left: 0px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 3px 15px;
+	text-transform: uppercase;
 }
 
 #header ul li:first-child {
 	border-left-style: solid;
-}
-
-li a {
-	color: #999999;
-	text-decoration: none;
 }
 
 #content {
@@ -75,7 +71,8 @@ li a {
 	background: -o-linear-gradient(right, #000000 25%, #444444 50%, black 75%); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #000000 25%, #444444 50%, black 75%); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #000000 25%, #444444 50%, black 75%); /* Standard syntax */
-	height: 650px;
+	height: 600px;
+	margin-top: 20px;
 	padding: 20px 30px;
 	width: 950px;
 }
@@ -139,25 +136,29 @@ div#about_info {
 	font-size: 10px;
 	display: inline-block;
 	height: 15px;
-	margin: 15px 5px 0px 0px;
+	margin: 10px 5px 0px 0px;
 	vertical-align: top;
-	width: 850px;
+	width: 857px;
 }
 
 .articles {
 	background-color: white;
 	background-position: center 20px;
 	background-repeat: no-repeat;
+	background-size: 221px 101px;
 	border: 2px ridge #222222;
 	display: inline-block;
-	font-size: 12px;
-	height: 300px;
-	margin-left: 8px;
+	font-size: 11px;
+	height: 260px;
+	margin-left: 7px;
+	margin-top: 10px;
+	vertical-align: top;
 	width: 222px;
 }
 
 .articles h5 {
 	background-color: #FEC72F;
+	font-size: 14px;
 	font-weight: bold;
 	height: 20px;
 	margin: 0px;
@@ -165,11 +166,55 @@ div#about_info {
 }
 
 .articles p {
+	height: 75px;
 	margin-left: 10px;
 	margin-top: 100px;
 	margin-right: 10px;
 }
 
+.articles svg {
+	height: 40px;
+	width: 110px;
+	margin-top: 0px;
+	margin-left:100px;
+}
+
+.articles svg polygon {
+	fill: #FFC629;
+	stroke:black;
+	stroke-width:2;
+	fill-rule:evenodd;
+	
+}
+
+.articles div {
+/*	background-color: #FFC629;
+	border: 2px solid black;
+	border-top-right-radius: 70%;
+	border-bottom-right-radius: 70%;
+*/	cursor: pointer;
+	height: 20px;
+	margin-left: 100px;
+	margin-top: -43px;
+	padding-left: 5px;
+	padding-top: 3px;
+	text-transform: uppercase;
+	width: 100px;
+	z-index: 1;
+}
+
 #automotive {
 	background-image: url('automotive.png');
+}
+
+#commercial {
+	background-image: url('commercial.png');
+}
+
+#industrial {
+	background-image: url('industrial.png');
+}
+
+#diesel {
+	background-image: url('diesel.png');
 }
