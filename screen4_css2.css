@@ -172,29 +172,17 @@ div#about_info {
 	margin-right: 10px;
 }
 
-.articles svg {
-	height: 40px;
-	width: 110px;
-	margin-top: 0px;
-	margin-left:100px;
-}
-
-.articles svg polygon {
-	cursor: pointer;
-	fill: #FFC629;
-	stroke: black;
-	stroke-width: 2;
-	fill-rule: nonzero;
-}
-
 .articles div {
-	height: 20px;
+	background-image: url('read_more.jpg');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height: 22px;
 	margin-left: 100px;
-	margin-top: -43px;
+	margin-top: 5px;
 	padding-left: 5px;
 	padding-top: 3px;
 	text-transform: uppercase;
-	width: 100px;
+	width: 88px;
 }
 
 #automotive {
